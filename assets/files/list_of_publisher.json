@@ -27,7 +27,7 @@
             "total_news_post": 8750,
             "followers": 3500,
             "following": 20,
-            "isUserfolow": false,
+            "isUserfolow": true,
             "isVerifid": true,
             "data": [
                 {

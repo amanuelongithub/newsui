@@ -58,20 +58,22 @@ class RecommendationSection extends StatelessWidget {
                 )
               ]),
               Row(children: [
-                TextButton(
-                  style: TextButton.styleFrom(
-                      elevation: 0,
-                      minimumSize: const Size(80, 35),
-                      backgroundColor: const Color.fromARGB(82, 190, 226, 255),
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(5))),
-                  onPressed: () {},
-                  child: Text(
-                    publisherModelDatum.isUserfolow! ? "Unfollow" : "Follow",
-                    style: TextStyle(
-                        color: Colors.grey[700], fontWeight: FontWeight.bold),
+                if (!publisherModelDatum.isUserfolow!)
+                  TextButton(
+                    style: TextButton.styleFrom(
+                        elevation: 0,
+                        minimumSize: const Size(80, 35),
+                        backgroundColor:
+                            const Color.fromARGB(82, 190, 226, 255),
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(5))),
+                    onPressed: () {},
+                    child: Text(
+                      "Follow",
+                      style: TextStyle(
+                          color: Colors.grey[700], fontWeight: FontWeight.bold),
+                    ),
                   ),
-                ),
                 const Icon(Icons.more_vert_outlined)
               ]),
             ],
