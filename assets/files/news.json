@@ -1,0 +1,39 @@
+{
+    "success": true,
+    "data": {
+        "page_metadata": {
+            "length": 0,
+            "size": 20,
+            "page": 0,
+            "last_page": 0,
+            "start_index": 1,
+            "end_index": 0
+        },
+        "data": [
+            {
+                "title": "Global Summit on Climate Change: Historic Agreement Reached",
+                "category": "Environment",
+                "image": "assets/images/Cover-Img.png",
+                "publisher": {
+                    "name": "BBC News",
+                    "isVerifide": true,
+                    "img": "assets/images/BBC_News 1.png",
+                    "isUserFollow": false
+                },
+                "published_date": "2024-08-27T01:59:00Z"
+            },
+            {
+                "title": "Tech Giant Unveils Revolutionary AI-powered Device",
+                "category": "Technology",
+                "image": "assets/images/it.jpg",
+                "publisher": {
+                    "name": "The NYT",
+                    "isVerifide": true,
+                    "img": "assets/images/BBC_News 2.png",
+                    "isUserFollow": true
+                },
+                "published_date": "2024-08-28T01:59:00Z"
+            }
+        ]
+    }
+}

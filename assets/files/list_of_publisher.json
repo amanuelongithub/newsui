@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "name": "Forbes",
+            "title": "forbesnews",
+            "slug": "Empowering your business journey with expert insights and influential perspectives.",
+            "img": "assets/images/Forbes-Symbol.png",
+            "total_news_post": 6800,
+            "followers": 2500,
+            "following": 100,
+            "isUserfolow": false,
+            "isVerifid": true,
+            "data": [
+                {
+                    "title": "Global Summit on Climate Change: Historic Agreement Reached",
+                    "category": "Environment",
+                    "image": "assets/images/Cover_Img_3.png",
+                    "published_date": "2024-08-27T01:59:00Z"
+                }
+            ]
+        },
+        {
+            "name": "BBC",
+            "title": "bbcnews",
+            "slug": "Brithish Broadcast corporation",
+            "img": "assets/images/bbc.png",
+            "total_news_post": 8750,
+            "followers": 3500,
+            "following": 20,
+            "isUserfolow": false,
+            "isVerifid": true,
+            "data": [
+                {
+                    "title": "Tech Startup Secure $50 Million Funding for Expansion",
+                    "category": "Technology",
+                    "image": "assets/images/download (2).jpg",
+                    "published_date": "2024-08-27T01:59:00Z"
+                }
+            ]
+        }
+    ]
+}
